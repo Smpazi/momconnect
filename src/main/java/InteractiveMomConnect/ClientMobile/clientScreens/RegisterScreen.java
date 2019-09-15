@@ -45,9 +45,6 @@ public class RegisterScreen  extends JFrame implements ActionListener, KeyListen
         try
         {
             client.connect(new Socket("127.0.0.1",7000));
-           // g.buildAndDisplay();
-           // getAllDataFromServer();
-           // addEventHandlers();
             initComponents();
 
         }

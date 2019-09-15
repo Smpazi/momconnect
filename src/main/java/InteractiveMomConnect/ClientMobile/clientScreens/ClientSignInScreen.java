@@ -24,7 +24,7 @@ public class ClientSignInScreen extends JFrame implements ActionListener {
 
     private void initComponents() {
 
-        picLB = new JLabel(new ImageIcon("momconnet.jpg"));
+        picLB = new JLabel(new ImageIcon("InteractiveMomConnect/ClientMobile/clientScreens/momconnet.jpg"));
         nameTF = new JTextField();
         passTF = new JPasswordField();
         signinBT = new javax.swing.JButton();
@@ -37,7 +37,7 @@ public class ClientSignInScreen extends JFrame implements ActionListener {
         setResizable(false);
 
 
-        picLB.setIcon(new ImageIcon("momconnet.jpg")); // NOI18N
+        picLB.setIcon(new ImageIcon("InteractiveMomConnect/ClientMobile/clientScreens/momconnet.jpg")); // NOI18N
 
 
         signinBT.setText("Sign In");

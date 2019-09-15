@@ -17,7 +17,8 @@ public class WelcomeScreen extends JFrame implements ActionListener {
         chooseLanguageCB = new javax.swing.JComboBox();
         jScrollPane1 = new javax.swing.JScrollPane();
         infoTA = new javax.swing.JTextArea();
-        languageLB = new javax.swing.JLabel();
+       // Icon contact = new ImageIcon(getClass().getResource("momconnet.jpg"));
+        languageLB = new JLabel();
         jLabel1 = new javax.swing.JLabel();
         signInBT = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
@@ -41,7 +42,8 @@ public class WelcomeScreen extends JFrame implements ActionListener {
         infoTA.setText("Welcome to the Department of \nHealth's MomConnect.\n\nMomConnect provide support to \npregnant woman, Through using \nthe information provided in this\napplication. \n\nTo gain access to this \ninformation, you will have\nto register your details.\n\nThe details will be saved in \nDepartment of Health database.\nThis will help nearby clinic to\nlocate you faster in terms of\nemergencies.");
         jScrollPane1.setViewportView(infoTA);
 
-        languageLB.setIcon(new ImageIcon("/gui/phpT25NtdPM.jpg")); // NOI18N
+
+        //languageLB.setIcon(new ImageIcon(getClass().getResource("momconnet.jpg ")));
 
         signInBT.setText("SIGN IN");
         signInBT.addActionListener(this);
