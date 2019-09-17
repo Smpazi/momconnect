@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="jgoodies-looks-2.4.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/Compressed/jcalendar-1.4/lib/jgoodies-looks-2.4.1.jar!/" />
-      <root url="jar://$USER_HOME$/Downloads/Compressed/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
-      <root url="jar://$USER_HOME$/Downloads/Compressed/jcalendar-1.4/lib/jgoodies-common-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Apps/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Apps/jcalendar-1.4/lib/jgoodies-common-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Apps/jcalendar-1.4/lib/jgoodies-looks-2.4.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
