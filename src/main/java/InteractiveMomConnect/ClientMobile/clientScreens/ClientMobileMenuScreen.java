@@ -43,7 +43,7 @@ public class ClientMobileMenuScreen extends JFrame implements ActionListener {
         extTB.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         extTB.addActionListener(this);
 
-        userNmLabel.setText("UserName:");
+     //   userNmLabel.setText("UserName:");
 
         usernameTF.setBorder(BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         usernameTF.addActionListener(this) ;

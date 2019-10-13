@@ -6,8 +6,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 public class RegisterUser implements Serializable {
-   private String name, surname, IDnumber, address;
-   private int  password;
+   private String name, surname, IDnumber, address,visit,province;
+  // private int  password;
    private String dateStarted;
    private String dateDue;
 
@@ -21,9 +21,11 @@ public class RegisterUser implements Serializable {
         this.name=builder.name;
         this.surname=builder.surname;
         this.address=builder.address;
-        this.password= builder.password;
+      //  this.password= builder.password;
         this.dateStarted = builder.dateStarted;
         this.dateDue = builder.dateDue;
+        this.visit= builder.visit;
+        this.province= builder.province;
     }
 
     public String getName() {
@@ -42,8 +44,12 @@ public class RegisterUser implements Serializable {
         return IDnumber;
     }
 
-    public int getPassword() {
-        return password;
+    public String getVisit() {
+        return visit;
+    }
+
+    public String getProvince() {
+        return province;
     }
 
     public java.sql.Date getDateStarted() {
@@ -78,10 +84,11 @@ public class RegisterUser implements Serializable {
     }
 
     public static class Builder{
-        String name, surname, IDnumber, address;
-        int password;
+        String name, surname, IDnumber, address, visit,province;
+       // int password;
         private String dateStarted;
         private String dateDue;
+
         public  Builder name(String name){
             this.name= name;
             return this;
@@ -98,8 +105,12 @@ public class RegisterUser implements Serializable {
             this.address= address;
             return this;
         }
-        public  Builder password(int password){
-            this.password= password;
+        public  Builder visit(String visit){
+            this.visit= visit;
+            return this;
+        }
+        public  Builder province(String province){
+            this.province= province;
             return this;
         }
             public  Builder startDate(String dateStarted){
@@ -121,7 +132,7 @@ public class RegisterUser implements Serializable {
 
     @Override
     public String toString() {
-        return ""+ getIDnumber()+ " " + getName()+ " " + getSurname()+ " " + getAddress()+ " "+ getPassword()+" "+ getDateStarted()+" " + getDateDue();
+        return ""+ getIDnumber()+ " " + getName()+ " " + getSurname()+ " " +getProvince()+" "+ getAddress()+ " "+ getVisit()+" "+ getDateStarted()+" " + getDateDue();
     }
 
 }

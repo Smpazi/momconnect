@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class RegisterUserFactoryTest {
 
-    @Test
+   /* @Test
     public void getRegisterUser() {
         String iD = "W8465";
         String name = "Thandie";
@@ -20,5 +20,5 @@ public class RegisterUserFactoryTest {
         RegisterUser registerUser = RegisterUserFactory.getRegisterUser(iD, name, sname, addr, password, dateStart, due_date);
         System.out.println(registerUser);
         Assert.assertNotNull(registerUser.toString());
-    }
+    }*/
 }

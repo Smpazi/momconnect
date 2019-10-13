@@ -31,7 +31,7 @@ public class Standalone {
     public  void createTable(){
 
         try{
-            statement.executeUpdate("CREATE TABLE Users(ID_Number VARCHAR(30) NOT NULL, Fname VARCHAR(30) NOT NULL, Surname VARCHAR(30), Address VARCHAR(60) NOT NULL, Password INT NOT NULL, DateStarted DATE , DateDue  DATE , PRIMARY KEY (ID_Number) )");
+            statement.executeUpdate("CREATE TABLE Users(ID_Number VARCHAR(30) NOT NULL, Fname VARCHAR(30) NOT NULL, Surname VARCHAR(30) NOT NULL, Province VARCHAR(60) NOT NULL,Address VARCHAR(60) NOT NULL, DateStarted DATE, DateDue  DATE, ClinicName VARCHAR(60) NOT NULL, PRIMARY KEY (ID_Number) )");
             System.out.println("Table Created.");
 
         } catch (Exception e) {
@@ -47,14 +47,16 @@ public class Standalone {
             while (true)
             {
                 user =(RegisterUser)inputUser.readObject();
-                preparedStatement= connection.prepareStatement("INSERT INTO Users(ID_Number,Fname,Surname,Address,Password,DateStarted, DateDue) VALUES (?,?,?,?,?,?,?)");
+                preparedStatement= connection.prepareStatement("INSERT INTO Users(ID_Number,Fname,Surname,Province,Address,DateStarted, DateDue,ClinicName) VALUES (?,?,?,?,?,?,?,?)");
                 preparedStatement.setString(1,user.getIDnumber());
                 preparedStatement.setString(2,user.getName());
                 preparedStatement.setString(3,user.getSurname());
-                preparedStatement.setString(4,user.getAddress());
-                preparedStatement.setInt(5,user.getPassword());
+                preparedStatement.setString(4,user.getProvince());
+                preparedStatement.setString(5,user.getAddress());
                 preparedStatement.setDate(6,user.getDateStarted());
                 preparedStatement.setDate(7,user.getDateDue());
+                preparedStatement.setString(8,user.getVisit());
+
 
                 preparedStatement.executeUpdate();
                 count++;

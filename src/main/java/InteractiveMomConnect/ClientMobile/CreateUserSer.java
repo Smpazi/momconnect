@@ -14,8 +14,8 @@ public class CreateUserSer {
             ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("User.ser"));
             output.flush();
 
-            output.writeObject( RegisterUserFactory.getRegisterUser("0006435609808","Lomie","Mpazi","1928,Valley,Stelly, 7600",8888,"05 Sep 2019", "25 Jun 2020"));
-            output.writeObject( RegisterUserFactory.getRegisterUser("9600818679807","Siziphiwe","Mpazi","19 Matshekethwa,5060",444,"05 Oct 2019", "25 Jul 2020"));
+            output.writeObject( RegisterUserFactory.getRegisterUser("0006435609808","Lomie","Mpazi","Eastern Cape","1928,Valley,Stelly, 7600","25 Jun 2020","05 Sep 2019", "Parow Clinic"));
+            output.writeObject( RegisterUserFactory.getRegisterUser("9600818679807","Siziphiwe","Mpazi","Western Cape","19 Matshekethwa,5060","25 Jul 2020","05 Oct 2019", "Khayamandi Clinic"));
             output.close();
             ObjectInputStream input = new ObjectInputStream(new FileInputStream("User.ser"));
             while (true){

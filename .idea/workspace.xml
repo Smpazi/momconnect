@@ -2,20 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1b7e44e-5288-4956-9d28-d5a5c42a19d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/SignInFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jgoodies_looks_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jgoodies_looks_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/momconnect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jgoodies_looks_2_4_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/ucanaccess.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ucanaccess.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MomConnectDatabase.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/MomConnectDatabase.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.ser" beforeDir="false" afterPath="$PROJECT_DIR$/User.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/CreateUserSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/CreateUserSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/RegisterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientMobileMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientMobileMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Standalone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Standalone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/CreateUserSer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/CreateUserSer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/RegisterUser$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/RegisterUser$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/RegisterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/RegisterUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ServerSystem/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ServerSystem/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ServerSystem/Standalone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InteractiveMomConnect/ServerSystem/Standalone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/momconnect.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,28 +59,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/SignInFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -67,49 +70,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Register.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/UserPregnantDetail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/SignIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/RegisterUserSer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Factory/SignInFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/PasswordReset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/ClientMobileGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/GuiServer.form" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/ClientChatScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/To_DoScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/AppointmentScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientNutritionScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientPregnancySicknessess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/HealthPrecautionScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientExerciseScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientMobileMenuScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientProfileScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/BirthPlanScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/TimelineScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientChatScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/MyWeightScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/dedd.form" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientSignInScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/RegisterUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Standalone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/CreateUserSer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/WelcomeScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/ServerSystemGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/TableUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/SignInFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -117,100 +77,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mom.connect" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="709" />
-    <option name="height" value="788" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="InteractiveMomConnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="InteractiveMomConnect" type="462c0819:PsiDirectoryNode" />
-              <item name="ClientMobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="momconnect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="momconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="InteractiveMomConnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1R6jRfMmTb5neqW39TcDC5481G6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -220,7 +95,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Systems ADP/momconnect" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ADP/ADP pracs 2018/UCanAccess-4.0.4-bin/lib/jackcess-2.1.11.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -262,9 +137,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SignInFactoryTest.getSignIn">
-    <configuration name="ServerSystemGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ServerSystem.ServerSystemGUI" />
+  <component name="RunManager" selected="Application.RegisterScreen">
+    <configuration name="CreateUserSer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ClientMobile.CreateUserSer" />
+      <module name="momconnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InteractiveMomConnect.ClientMobile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ClientMobile.clientScreens.RegisterScreen" />
+      <module name="momconnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InteractiveMomConnect.ClientMobile.clientScreens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ServerSystem.Server" />
       <module name="momconnect" />
       <extension name="coverage">
         <pattern>
@@ -276,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ServerSystem.TableUser" />
+    <configuration name="Standalone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ServerSystem.Standalone" />
       <module name="momconnect" />
       <extension name="coverage">
         <pattern>
@@ -302,45 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterUserFactoryTest.getRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mom.connect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InteractiveMomConnect.ClientMobile.Factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="InteractiveMomConnect.ClientMobile.Factory" />
-      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ClientMobile.Factory.RegisterUserFactoryTest" />
-      <option name="METHOD_NAME" value="getRegisterUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignInFactoryTest.getSignIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mom.connect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InteractiveMomConnect.ClientMobile.Factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="InteractiveMomConnect.ClientMobile.Factory" />
-      <option name="MAIN_CLASS_NAME" value="InteractiveMomConnect.ClientMobile.Factory.SignInFactoryTest" />
-      <option name="METHOD_NAME" value="getSignIn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SignInFactoryTest.getSignIn" />
-        <item itemvalue="JUnit.RegisterUserFactoryTest.getRegisterUser" />
-        <item itemvalue="Application.ServerSystemGUI" />
-        <item itemvalue="Application.TableUser" />
+        <item itemvalue="Application.RegisterScreen" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.WelcomeScreen" />
+        <item itemvalue="Application.Standalone" />
+        <item itemvalue="Application.CreateUserSer" />
       </list>
     </recent_temporary>
   </component>
@@ -378,6 +247,13 @@
       <workItem from="1568528704888" duration="2099000" />
       <workItem from="1568542919890" duration="3462000" />
       <workItem from="1568750021002" duration="3109000" />
+      <workItem from="1568991309817" duration="646000" />
+      <workItem from="1568994496089" duration="957000" />
+      <workItem from="1569028531779" duration="837000" />
+      <workItem from="1570899344586" duration="9617000" />
+      <workItem from="1570942374827" duration="13009000" />
+      <workItem from="1570983559200" duration="1422000" />
+      <workItem from="1570987546539" duration="361000" />
     </task>
     <servers />
   </component>
@@ -392,429 +268,28 @@
       <configuration name="SignInFactoryTest.getSignIn" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127350000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Learn" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27609682" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.31096563" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Flutter Inspector" order="1" />
-      <window_info anchor="right" id="Flutter Outline" order="2" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.32980332" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/momconnect$ClientNutritionScreen.ic" NAME="ClientNutritionScreen Coverage Results" MODIFIED="1567985804137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>InteractiveMomConnect.ClientMobile.clientScreens.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/UserPregnantDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/PasswordReset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/GuiServer.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/GuiServer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ProfileScreen.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/To_DoScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="143" column="37" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7295#7419#0" expanded="true" />
-            <element signature="e#7418#7419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/AppointmentScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientNutritionScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="159" column="40" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/HealthPrecautionScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientPregnancySicknessess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="159" column="40" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientExerciseScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientProfileScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/TimelineScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientChatScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientMobileMenuScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/BirthPlanScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/dedd.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/dedd.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/MyWeightScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="135" column="47" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/ClientSignInScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="148" column="11" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../ADP/ADP pracs 2018/UCanAccess-4.0.4-bin/ucanaccess-4.0.4.jar!/net/ucanaccess/jdbc/UcanaccessStatement.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/CreateUserSer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Standalone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/RegisterUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/javax/swing/ImageIcon.java" />
-    <entry file="file://$PROJECT_DIR$/src/WelcomeScreen.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/WelcomeScreen.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="103" column="158" selection-start-line="103" selection-start-column="158" selection-end-line="103" selection-end-column="158" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/TableUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/WelcomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="171" column="20" selection-start-line="171" selection-end-line="172" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ServerSystem/ServerSystemGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/clientScreens/RegisterScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractiveMomConnect/ClientMobile/Factory/SignInFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/RegisterUserFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InteractiveMomConnect/ClientMobile/Factory/SignInFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Android API 28 Platform</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>mom.connect</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>jgoodies-looks-2.4.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

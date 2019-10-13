@@ -101,14 +101,16 @@ public class Server {
                         ids.add(resultSet.getString(1));
                     }
 
-                    preparedStatement= connection.prepareStatement("INSERT INTO Users(ID_Number,Fname,Surname,Address,Password, DateStarted, DateDue) VALUES (?,?,?,?,?,?,?)");
+                    preparedStatement= connection.prepareStatement("INSERT INTO Users(ID_Number,Fname,Surname,Province,Address,DateStarted, DateDue,ClinicName) VALUES (?,?,?,?,?,?,?,?)");
                     preparedStatement.setString(1,user.getIDnumber());
                     preparedStatement.setString(2,user.getName());
                     preparedStatement.setString(3,user.getSurname());
-                    preparedStatement.setString(4,user.getAddress());
-                    preparedStatement.setInt(5,user.getPassword());
+                    preparedStatement.setString(4,user.getProvince());
+                    preparedStatement.setString(5,user.getAddress());
                     preparedStatement.setDate(6,user.getDateStarted());
                     preparedStatement.setDate(7,user.getDateDue());
+                    preparedStatement.setString(8,user.getVisit());
+
                     preparedStatement.executeUpdate();
 
                     out.writeObject("NewUser " + (ids.get(ids.size() - 1) + 100) + " has been added to the database");
@@ -119,12 +121,13 @@ public class Server {
                 {
                     RegisterUser user = (RegisterUser) in.readObject();
 
-                    preparedStatement = connection.prepareStatement("UPDATE Users SET Fname = ?, Surname = ?, Address = ? Password WHERE ID_Number = ?");
+                    preparedStatement = connection.prepareStatement("UPDATE Users SET Fname = ?, Surname = ?, Province= ?, Address = ? ClinicName= ? WHERE ID_Number = ?");
                     preparedStatement.setString(1,user.getName());
                     preparedStatement.setString(2,user.getSurname());
-                    preparedStatement.setString(3,user.getAddress());
-                    preparedStatement.setInt(4,user.getPassword());
-                    preparedStatement.setString(5,user.getIDnumber());
+                    preparedStatement.setString(3,user.getProvince());
+                    preparedStatement.setString(4,user.getAddress());
+                    preparedStatement.setString(5,user.getVisit());
+                    preparedStatement.setString(6,user.getIDnumber());
 
                     preparedStatement.executeUpdate();
 
@@ -134,7 +137,7 @@ public class Server {
 
             }while(!message.equals("CLOSE"));
 
-            System.out.println("Client disconnected");
+            System.out.println("Client disconnected.");
         }
         catch(IOException ioe)
         {
